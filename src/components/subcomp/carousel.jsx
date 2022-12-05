@@ -27,7 +27,7 @@ const Carousel = ({colabedPic, setTurn}) => {
     }}><CloseIcon className='!w-12 !h-12 '/></div>
      <div className="flex   justify-center">
        
-       <img loading='lazy'  className='w-1/2 ' src={colabedPic[presentIndex]} alt="this is image" />
+       <img loading='lazy'  className='md:w-[70%] ,d:h-[60%] ' src={colabedPic[presentIndex]} alt="this is image" />
     
        
      </div>
