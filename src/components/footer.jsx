@@ -32,7 +32,7 @@ const footer = () => {
         </div>
         <hr />
         <div className='text-center my-10 mx-auto'> 
-            copyright
+            copyright © 2019-2022
         </div>
     </footer>
   )

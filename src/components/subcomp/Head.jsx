@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Head = () => {
   return (
     <div className="main  bg-cover bg-no-repeat bg-right-bottom" >
-      <img className="absolute w-[100%] h-[65%]  md:h-[35rem] blur-[1px] object-cover " loading="lazy" src={croud} alt="croud" />
+      <img className="absolute w-[100%] h-[75%]  md:h-[35rem] blur-[1px] object-cover " loading="lazy" src={croud} alt="croud" />
         <div className="backdrop-blur-[3px] grid place-items-start text-white font-bold text-lg py-36  px-10 md:p-36 md:text-3xl">
         <span className="text-red-500 bg-white px-2 mb-3 font-serif ">Welcome</span>
           <h1 className="text-3xl font-serif ">Let's <br /> make our <br /> community a <br /> better place!</h1>
