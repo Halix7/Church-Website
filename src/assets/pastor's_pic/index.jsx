@@ -1,0 +1,14 @@
+export {default as David} from "./David.jpeg";
+export {default as jai_bhagwan} from "./jai_bhagwan.jpeg";
+export {default as Makhan} from "./Makhan.jpeg";
+export {default as Mamta} from "./Mamta.jpeg";
+export {default as Ramesh_chander} from "./Ramesh_chander.jpeg";
+export {default as Ramesh_kumar} from "./Ramesh_kumar.jpeg";
+export {default as Reena} from "./Reena.jpeg";
+export {default as Rev_Jitender_singh} from "./Rev.Jitender_singh.jpeg";
+export {default as Sanjay_Mathew} from "./Sanjay_Mathew.jpeg";
+export {default as Sanjeev_kumar} from "./Sanjeev_kumar.jpeg";
+export {default as Sheema_rani} from "./Sheema_rani.jpeg";
+export {default as Shiv_kumar} from "./Shiv_kumar.jpeg";
+export {default as Sukhwinder_singh} from "./Sukhwinder_singh.jpeg";
+export {default as Sunkhwinder_Singh} from "./Sunkhwinder_Singh.jpeg";

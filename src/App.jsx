@@ -6,6 +6,9 @@ import { BrowserRouter,Routes,Route } from "react-router-dom";
 import Home from "./components/Home";
 import Contact from "./components/contact";
 import Prayer from "./components/prayer"
+import Branches from "./components/Branches";
+import PrayerPartner from "./components/PrayerPartner";
+import Links from "./components/Links";
 function App() {
  
   return (
@@ -15,8 +18,11 @@ function App() {
       <Navigation/>
       <Routes>
         <Route exact path="/" element={<Home/>}/>
-        <Route  path="/contact" element={<Contact/>}/>
-        <Route  path="/prayer" element={<Prayer/>}/>
+        <Route exact  path="/about" element={<Contact/>}/>
+        <Route exact  path="/branches" element={<Branches/>}/>
+        <Route exact  path="/links" element={<Links/>}/>
+        <Route exact  path="/prayerpartner" element={<PrayerPartner/>}/>
+        <Route exact  path="/prayer" element={<Prayer/>}/>
       
 
       </Routes>
